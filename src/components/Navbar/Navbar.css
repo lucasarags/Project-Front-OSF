@@ -1,0 +1,29 @@
+.nav-links {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+
+.nav-links:hover {
+  background-color: #262A33;
+  border-radius: 2px;
+  border-bottom: #85BC23 solid 3px;
+  padding: 14px 14px;
+  padding-bottom: 30px;
+}
+
+.nav-links:visited {
+  color: black;
+}
+
+.nav-linksPage {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+
+.nav-linksState {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+
+}

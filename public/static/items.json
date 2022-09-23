@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "name": "Tênis Nike Revolution 5 ",
+    "price": 249.99,
+    "image": "http://localhost:3000/image-3.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Tênis Nike Revolution 5",
+    "price": 249.99,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/94313762.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Tênis Nike Revolution 5",
+    "price": 249.99,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/943137XQ.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Tênis Asics Patriot 12 Noosa",
+    "price": 199.99,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/95077714.jpg"
+  },
+  {
+    "id": "5",
+    "title": "Tênis Nike Revolution 5 Max",
+    "price": 249.99,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/94313731.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Tênis Nike Revolution 5",
+    "price": 249.99,
+    "image": "http://localhost:3000/image-3.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Tênis Nike Revolution 5",
+    "price": 249.99,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/943137XQ.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Tênis Asics Patriot 12 Noosa",
+    "price": 199.99,
+    "image": "http://localhost:3000/image-3.jpg"
+  },
+  {
+    "id": "9",
+    "title": "Tênis Nike Revolution 5 Max",
+    "price": 249.99,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/94313731.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Tênis Nike Revolution 5",
+    "price": 249.99,
+    "image": "http://localhost:3000/image-3.jpg"
+  },
+  {
+    "id": "11",
+    "name": "Tênis Nike Revolution 5",
+    "price": 249.99,
+    "image": "http://localhost:3000/image-3.jpg"
+  },
+  {
+    "id": "12",
+    "name": "Tênis Asics Patriot 12 Noosa",
+    "price": 199.99,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/95077714.jpg"
+  },
+  {
+    "id": "13",
+    "title": "Tênis Nike Revolution 5 Max",
+    "price": 249.99,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/94313731.jpg"
+  },
+  {
+    "id": "14",
+    "name": "Tênis Nike Revolution 5",
+    "price": 249.99,
+    "image": "http://localhost:3000/image-3.jpg"
+  },
+  {
+    "id": "15",
+    "name": "Tênis Nike Revolution 5",
+    "price": 249.99,
+    "image": "http://localhost:3000/image-3.jpg"
+  },
+  {
+    "id": "16",
+    "name": "Tênis Asics Patriot 12 Noosa",
+    "price": 199.99,
+    "image": "http://localhost:3000/image-3.jpg"
+  }
+]

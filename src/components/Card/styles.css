@@ -1,0 +1,17 @@
+.App {
+  background-color: #262A33;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 1280px;
+  margin: 0 auto;
+
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 15px 15px;
+  justify-content: space-around;
+  padding: 0px 60px 0px 60px;
+
+}
