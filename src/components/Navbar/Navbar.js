@@ -101,10 +101,10 @@ export default function Navbar() {
             <Link to="#" className='nav-linksPage' >COMPANY</Link>
           </li>
           <li>
-            <Link to="#" className='nav-linksPage' >LIBRARY</Link>
+            <Link to="/2" className='nav-linksPage' >LIBRARY</Link>
           </li>
           <li>
-            <Link to="#" className='nav-linksPage' >CONTACT US</Link>
+            <Link to="/3" className='nav-linksPage' >CONTACT US</Link>
           </li>
           <li>
             <Link to="#" className='nav-linksState' >EN <IoMdArrowDropdown />

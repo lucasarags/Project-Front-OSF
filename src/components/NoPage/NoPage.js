@@ -1,13 +1,11 @@
 import React from 'react'
 import './NoPage.css'
+
 const bodyPage = {
   width: '1280px',
   margin: '0 auto',
-  height: '840px',
+  height: '720px',
   backgroundColor: '#F1EDEA',
-
-
-
 
 }
 const home = {
@@ -20,62 +18,81 @@ const home = {
 const container = {
 
   backgroundColor: '#FFFFFF',
-  width: '1180px',
+  width: '1160px',
   margin: '0 auto',
-  height: '585px',
+  height: '490px',
   display: "flex",
   justifyContent: "center",
   alignItems: 'center',
   padding: '60px',
-}
-const message = {
-  fontSize: '80px',
-  color: '#85BC23',
-  fontWeight: 'bold'
-}
+  borderRadius: '8px',
 
+}
 
 const title = {
   fontWeight: 'bold',
   textAlign: 'start',
+  margin: '30px 0px',
+  fontSize: '24px',
+
 }
 const firstText = {
-  fontSize: '16px',
-  padding: '15px 120px',
+  fontSize: '14px',
+  padding: '0px 50px 0px 0px',
   textAlign: 'start',
+  lineHeight: '20px'
+
 
 }
 const secondText = {
-  fontSize: '16px',
-  padding: '15px 120px',
+  fontSize: '14px',
+  padding: '15px 50px 15px 0px',
   textAlign: 'start',
+  lineHeight: '20px'
+
 }
 
 const back = {
-  fontSize: '16px',
-  fontColor: '#85BC23',
-  textAlign: 'start'
+  fontSize: '14px',
+  textAlign: 'start',
+  margin: '30px 0px 30px 0px',
+  color: '#85BC23',
 }
-
-const search = {
+const searchTitle = {
   fontWeight: 'bold',
   textAlign: 'start',
+  margin: '60px 0px 10px 0px',
+  fontSize: '24px',
+
 }
 
+const leftDiv = {
+  flex: '4',
+  display: 'flex',
+  justifyContent: 'space-around',
+  fontSize: '120px',
+  fontWeight: 'bold',
+  color: '#85BC23',
+  padding: '50px',
 
+}
+const rightDiv = {
+  flex: '7',
+
+}
 
 export default function NoPage() {
   return (
 
     <div style={bodyPage}>
-      <div style={{ ...home, padding: '60px 15px 0px 15px' }}>
-        <div style={{ fontColor: '#85BC23', fontSize: '16px', color: '#85BC23', }}>
+      <div style={{ ...home, padding: '50px 15px 0px 15px' }}>
+        <div style={{ fontColor: '#85BC23', fontSize: '14px', color: '#85BC23', }}>
           Home
         </div>
-        <div style={{ margin: '0px 20px', fontSize: '16px', color: '#85BC23', }}>
+        <div style={{ margin: '0px 20px', fontSize: '14px', color: '#85BC23', }}>
           /
         </div>
-        <div style={{ fontSize: '16px', color: '#45413E' }}>
+        <div style={{ fontSize: '14px', color: '#45413E' }}>
           404
         </div>
       </div>
@@ -83,8 +100,8 @@ export default function NoPage() {
       <div>
         <div
           style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }} >
-          <div style={{ flex: 6, height: '2px', backgroundColor: '#999999', opacity: '.3', marginLeft: '60px' }} />
-          <div style={{ flex: 2, fontSize: '54px', textAlign: 'center', fontWeight: 'bold', FontColor: '#45413E', padding: '25px 0px 50px 0px' }}>
+          <div style={{ flex: 6, height: '2px', backgroundColor: '#999999', opacity: '.3', marginLeft: '60px', justifyContent: 'center' }} />
+          <div style={{ flex: 2, fontSize: '54px', textAlign: 'center', fontWeight: 'bold', FontColor: '#45413E', margin: '20px 0px 40px 0px', opacity: '0.7' }}>
             404
           </div>
           <div style={{ flex: 6, height: '2px', backgroundColor: '#999999', opacity: '.3', marginRight: '60px' }} />
@@ -92,19 +109,15 @@ export default function NoPage() {
       </div>
 
       <div style={container}>
-        <div Style={{
-
-          color: '#85BC23',
-
-        }}>
-          Ooops!
+        <div style={leftDiv}>
+          Oops!
         </div>
 
-        <div>
+        <div style={rightDiv}>
           <div style={title}>
             Sorry, this page could not bet found!
           </div>
-          <div styke={firstText}>
+          <div style={firstText}>
             Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus.
           </div>
           <div style={secondText}>
@@ -113,11 +126,15 @@ export default function NoPage() {
           <div style={back}>
             Go back to Homepage
           </div>
-          <div style={search}>
-            Search ou Site
+          <div style={searchTitle}>
+            Search our site
           </div>
-        </div>
 
+          <div class="inputwrapper" data-required="(ICON)">
+            <input id="demoTextBox" type="text" value="" class="inputDataText" placeholder="SEARCH" />
+          </div>
+
+        </div>
       </div>
     </div >
 

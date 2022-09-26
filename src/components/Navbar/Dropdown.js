@@ -39,7 +39,7 @@ export default function Dropdown() {
                 <div className="vazio">
                   .
                 </div>
-                {MenuItemsCategories.slice(0, 8).map((item, index) => {
+                {MenuItemsCategories.slice(8, 16).map((item, index) => {
                   return (
                     <li>
                       <Link key={index} className={item.cName} to={item.path} onClick={handleClick}>{item.title}</Link>
@@ -52,7 +52,7 @@ export default function Dropdown() {
                 <div className="vazio">
                   .
                 </div>
-                {MenuItemsCategories.slice(0, 8).map((item, index) => {
+                {MenuItemsCategories.slice(16, 24).map((item, index) => {
                   return (
                     <li>
                       <Link key={index} className={item.cName} to={item.path} onClick={handleClick}>{item.title}</Link>

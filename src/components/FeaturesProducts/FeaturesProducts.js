@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect, useState, useRef } from 'react';
 import './FeaturesProducts.css';
 import { MdOutlineKeyboardArrowRight, MdOutlineKeyboardArrowLeft } from 'react-icons/md';
-import CardButton from '../Card/CardButton';
+import CardCarousel from '../FeaturesProducts/CardCarousel';
 
 const containerTitle = {
   display: 'flex',
@@ -80,7 +80,7 @@ export default function FeaturesProducts() {
           const { id, name, price, image } = item;
           const isOdd = index % 2 === 1
           return (
-            <CardButton
+            <CardCarousel
               id={item.id}
               image={item.image}
               price={item.price}

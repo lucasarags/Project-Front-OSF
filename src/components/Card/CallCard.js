@@ -1,6 +1,7 @@
-import React from 'react';
-import CardButton from './CardButton'
+/*import React from 'react';
+import Card from './Card'
 import { useEffect, useState } from 'react';
+import './CardButton.css'
 
 export default function CallCard() {
 
@@ -22,7 +23,9 @@ export default function CallCard() {
       {data.map((item, index) => {
         const isOdd = index % 2 === 1
         return (
-          <CardButton
+
+
+          <Card
             id={item.id}
             image={item.image}
             price={item.price}
@@ -30,9 +33,10 @@ export default function CallCard() {
             isOdd={isOdd}
           />
 
+
         )
       })}
     </>
   )
 
-}
+}*/
