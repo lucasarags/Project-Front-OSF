@@ -50,14 +50,7 @@ const loadMoreBtn = {
   backgroundColor: '#262A33',
   border: '2px solid white',
 }
-//Layout
-/*const Layout = ({ children }) => (
-  <div>
-    <Navbar />
-    {children}
-  </div>
-);
-*/
+
 
 //Pages
 const HomePage = () => {
