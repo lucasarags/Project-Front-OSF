@@ -1,5 +1,5 @@
 import React from 'react'
-import banner from './OIP.jpg'
+import banner from './Layer148.png'
 
 const containerBanner = {
   width: '1280px',

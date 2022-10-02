@@ -1,16 +1,16 @@
 import React from 'react'
 import './CardCarousel.css'
 import { FaHeart, FaPlus } from 'react-icons/fa';
-
+import { Link } from 'react-router-dom';
 
 export default function Card(props) {
   return (
     <div key={props.id}>
       {props.isOdd
         ?
-        <div className="container-item-c">
-          <div className="image-c">
-            <img src={props.image} />
+        <div className="container-item-c" >
+          <div className="image-c" >
+            <img src={props.image} id="resized-image" />
           </div>
 
           <div className='info-c'>
@@ -28,20 +28,26 @@ export default function Card(props) {
           </div>
         </div>
         :
-        <div className="item-c">
+        <div className="item-c" >
 
-          <div className="image-c">
-            <img src={props.image} />
+          <div className="image-c" >
+            <Link to="/ProductDetails" >
+              <img src={props.image} id="resized-image" />
+            </Link>
           </div>
 
           <div className='info-c'>
             <div className='name-c'>
-              {props.name}
+              <Link to="/ProductDetails" style={{ textDecoration: 'none', color: '#262A33' }}>
+                {props.name}
+              </Link>
             </div>
             <div className='div-button-c'>
-              <button className='price-c'>
-                $ {props.price}
-              </button>
+              <Link to="/ProductDetails">
+                <button className='price-c'>
+                  $ {props.price}
+                </button>
+              </Link>
               <button className='buy-c'>
                 BUY NOW
               </button>

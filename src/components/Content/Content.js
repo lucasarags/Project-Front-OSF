@@ -1,6 +1,7 @@
 import React from 'react'
-
-
+import cart from './imagesContent/cart.png'
+import cycle from './imagesContent/cycle.png'
+import list from './imagesContent/list.png'
 const containerContent = {
   width: '1280px',
   margin: '0 auto',
@@ -21,13 +22,14 @@ const title = {
   fontSize: '18px',
   color: '#ffffff',
   textAlign: 'start',
-  padding: '0px 45px 15px 40px'
+  padding: '0px 40px 15px 30px'
 }
 const text = {
   fontSize: '14px',
   color: '#ffffff',
   opacity: '0.3',
-  padding: '0px 45px 0px 40px'
+  padding: '0px 30px 0px 30px',
+  lineHeight: '18px'
 }
 
 
@@ -38,7 +40,7 @@ export default function Content() {
 
       <div style={containerDiv}>
         <div >
-          FIGURA
+          <img src={cart} alt={'cart'} />
         </div>
         <div>
           <div style={title} >
@@ -52,7 +54,7 @@ export default function Content() {
 
       <div style={containerDiv}>
         <div>
-          FIGURA
+          <img src={cycle} alt={'recycle'} />
         </div>
         <div>
           <div style={title}>
@@ -66,7 +68,7 @@ export default function Content() {
 
       <div style={containerDiv}>
         <div>
-          FIGURA
+          <img src={list} alt={'list'} />
         </div>
         <div>
           <div style={title}>

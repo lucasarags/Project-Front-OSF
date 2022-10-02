@@ -1,107 +1,107 @@
 export const FooterItems = [
   {
     title: 'Alcohol',
-    path: '/',
+    path: '/NotFound',
     cName: 'footer-link'
   },
   {
     title: 'Art',
-    path: '/',
+    path: '/NotFound',
     cName: 'footer-link'
   },
   {
     title: 'Books',
-    path: '/',
+    path: '/NotFound',
     cName: 'footer-link'
   },
   {
     title: 'Drinks',
-    path: '/',
+    path: '/NotFound',
     cName: 'footer-link'
   },
   {
     title: "Eletronics",
-    path: '/',
+    path: '/NotFound',
     cName: 'footer-link'
   },
   {
     title: 'Home',
-    path: '/',
+    path: '/NotFound',
     cName: 'footer-link'
   },
   {
     title: 'Jewelry',
-    path: '/',
+    path: '/NotFound',
     cName: 'footer-link'
   },
   {
     title: 'Kids & Baby',
-    path: '/',
+    path: '/NotFound',
     cName: 'footer-link'
   },
   {
     title: "Men's Fashion",
-    path: '/',
+    path: '/NotFound',
     cName: 'footer-link'
   },
   {
     title: 'Mobile',
-    path: '/',
+    path: '/NotFound',
     cName: 'footer-link'
   },
   {
     title: 'Motorcycles',
-    path: '/',
+    path: '/NotFound',
     cName: 'footer-link'
   },
   {
     title: 'Movies',
-    path: '/',
+    path: '/NotFound',
     cName: 'footer-link'
   },
   {
     title: 'Music',
-    path: '/',
+    path: '/NotFound',
     cName: 'footer-link'
   },
   {
     title: 'Sport',
-    path: '/',
+    path: '/NotFound',
     cName: 'footer-link'
   },
   {
     title: 'Toys',
-    path: '/',
+    path: '/NotFound',
     cName: 'footer-link'
   },
   {
     title: "Travel",
-    path: '/',
+    path: '/NotFound',
     cName: 'footer-link'
   },
   {
     title: "Women's Fashion",
-    path: '/',
+    path: '/NotFound',
     cName: 'footer-link'
   },
   {
     title: "About us",
-    path: '/',
+    path: '/NotFound',
     cName: 'footer-link'
   },
   {
     title: "Delivery",
-    path: '/',
+    path: '/NotFound',
     cName: 'footer-link'
   },
   {
     title: "Testimonials",
-    path: '/',
+    path: '/NotFound',
     cName: 'footer-link'
   },
   {
     title: "Contact",
-    path: '/',
+    path: '/NotFound',
     cName: 'footer-link'
   }
 ]

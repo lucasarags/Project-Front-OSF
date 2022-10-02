@@ -1,7 +1,8 @@
 .nav-links {
   text-decoration: none;
   padding: 0.5rem 1rem;
-  font-weight: bold;
+  color: #262A33;
+
 }
 
 .nav-links:hover {
@@ -10,20 +11,31 @@
   border-bottom: #85BC23 solid 3px;
   padding: 14px 14px;
   padding-bottom: 30px;
+  color: #ffffff;
 }
 
 .nav-links:visited {
-  color: black;
+  background-color: #262A33;
+
 }
 
 .nav-linksPage {
   text-decoration: none;
   padding: 0.5rem 1rem;
-  font-weight: bold;
+
+}
+
+.nav-linksPage:visited {
+  color: #262A33;
 }
 
 .nav-linksState {
   text-decoration: none;
   padding: 0.5rem 1rem;
+  opacity: 0.5;
+}
+
+.nav-linksState:visited {
+  color: #262A33;
 
 }

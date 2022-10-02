@@ -1,0 +1,14 @@
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  height: 400px;
+  background-color: #F2ECEA;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-products {
+  padding: 0px 60px;
+
+}

@@ -5,7 +5,15 @@ import { MenuItemsSale } from "./MenuItems"
 import React, { useState } from "react"
 import { Link } from 'react-router-dom';
 import './Dropdown.css';
+import image from './imagesNavbar/Layer162.png'
 
+const dropdownImg = {
+
+  borderRadius: '5px',
+  width: '265px',
+  height: '265px',
+  backgroundImage: `url(${image})`
+}
 
 
 export default function Dropdown() {
@@ -77,7 +85,7 @@ export default function Dropdown() {
                 <div>
 
                 </div>
-                <div className="dropdown-img">
+                <div style={dropdownImg}>
 
                 </div>
               </div>

@@ -1,24 +1,30 @@
 import { useState } from "react";
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const slideStyles = {
-  width: "100%",
-  height: "100%",
+  width: "860px",
+  height: "500px",
   borderRadius: "5px",
   backgroundSize: "cover",
   backgroundPosition: "center",
+
 };
 
 const sliderStyles = {
   position: "relative",
-  height: "100%",
+  width: '100%',
+  height: '100%',
+
 };
 
 const dotsContainerStyles = {
   position: "absolute",
   display: "flex",
   top: "88%",
-  left: "45%"
+  left: "45%",
+  alignItems: 'center',
+  justifyContent: 'start',
 };
 
 const titleImage = {
@@ -49,7 +55,8 @@ border-radius: 20px;
 border: 2px solid #FFFFFF;
 cursor: pointer;
 display: flex;
-justifyContent: start;
+align-items: center;
+justify-content: start;
 `;
 
 const Dot = styled.button`
@@ -59,16 +66,20 @@ border-radius: 50%;
 cursor: pointer;
 opacity: 0.6;
 margin: 0 8px;
-display: flex;
-justifyContent: center;
+
 border: 0;
 outline: 0;
+
   
   ${({ active }) =>
     active &&
     `
     opacity: 1;
-    
+    height: 14px;
+width: 14px;
+border: 3px solid white;
+background-color: transparent;
+
    
   `}
 `;
@@ -79,7 +90,7 @@ const ImageSlider = ({ slides }) => {
 
   const slideStylesWidthBackground = {
     ...slideStyles,
-    backgroundImage: `url(${slides[currentIndex].url})`,
+    backgroundImage: `url(${slides[currentIndex].url})`
   };
 
   return (
@@ -89,9 +100,11 @@ const ImageSlider = ({ slides }) => {
         </div>
         <div style={textImage}>Improve business performance and the user experience with the right mix of loT technology and processes
         </div>
-        <div style={{ margin: '0px 0px 0px 60px' }}>
-          <Button>VIEW MORE
-          </Button>
+        <div style={{ margin: '0px 0px 0px 60px', }}>
+          <Link to="/Services" style={{ textDecoration: 'none' }}>
+            <Button >VIEW MORE
+            </Button>
+          </Link>
         </div>
       </div>
       <div style={dotsContainerStyles}>

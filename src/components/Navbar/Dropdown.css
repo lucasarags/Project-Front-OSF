@@ -5,7 +5,7 @@
   margin: 0 auto;
   z-Index: 100;
   top: 80px;
-  left: 150px;
+  left: 0px;
   list-style: none;
   text-align: start;
 }
@@ -67,11 +67,4 @@
   padding: 16px;
   font-size: 14px;
   font-weight: bold;
-}
-
-.dropdown-img {
-  background: #FFFFFF;
-  border-radius: 5px;
-  width: 265px;
-  height: 265px;
 }

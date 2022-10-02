@@ -5,7 +5,7 @@
   display: flex;
 
   flex-direction: row;
-  padding: 48px 40px;
+  padding: 40px 40px 40px 40px;
 }
 
 .footer-link {
@@ -28,7 +28,9 @@ ul {
 
 .title-list {
   padding: 0px 16px 16px 10px;
+  color: #262A33;
   font-weight: bold;
+  font-size: 12px;
 }
 
 .void {
@@ -40,6 +42,8 @@ ul {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  opacity: 1;
+
 
 }
 
@@ -48,4 +52,5 @@ ul {
   flex-direction: column;
   text-align: start;
   width: 270px;
+
 }

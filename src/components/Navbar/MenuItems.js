@@ -1,124 +1,124 @@
 export const MenuItemsCategories = [
   {
     title: 'Acessories',
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: 'Alcohol',
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: 'Art',
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: 'Books',
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: 'Drinks',
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: 'Electronics',
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: 'Flowers & Plants',
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: 'Food',
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
 
   {
     title: 'Gadgets',
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: 'Garden',
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: 'Grocery',
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: 'Home',
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: 'Jewelry',
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: 'Kids & Baby',
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: "Men's Fashion",
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: "Mobile",
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
 
   {
     title: "Motorcycles",
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: "Movies",
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: "Music",
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: "Office",
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: "Pets",
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: "Romantics",
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: "Sport",
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: "Toys",
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   }
 ]
@@ -126,37 +126,37 @@ export const MenuItemsCategories = [
 export const MenuItemsSale = [
   {
     title: 'Acessories',
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: 'Alcohol',
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: 'Art',
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: 'Books',
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: 'Drinks',
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: 'Electronics',
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {
     title: 'Flowers & Plants',
-    path: '/',
+    path: '/NotFound',
     cName: 'dropdown-link'
   },
   {

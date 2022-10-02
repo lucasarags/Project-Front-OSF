@@ -1,25 +1,34 @@
 import styled from "styled-components";
 import React from 'react';
 import ImageSlider from "./ImageSlider";
-import image from './R.jpg'
+import { FaFacebookF } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+
 
 const DataSlider = () => {
   const containerStyles = {
     width: "1280px",
     height: "500px",
+
+
+
   };
   const containerPrincipal = {
     width: '1280px',
     margin: '0 auto',
+    paddingTop: '75px',
+
   }
 
   const cointanerImage = {
-    background: 'green',
+    background: '#85BC23',
     borderRadius: '5px',
-    opacity: '0.6',
+    opacity: '1',
     width: '265px',
     height: '330px',
-    margin: '0px 0px 0px 30px'
+    margin: '0px 0px 0px 30px',
+
+
   }
   const insideDiv = {
     display: 'flex',
@@ -61,22 +70,23 @@ const DataSlider = () => {
     display: 'flex',
     justifyContent: 'space-around',
     flexDirection: 'row',
-    padding: '30px 60px 0px 60px'
+    padding: '30px 60px 0px 60px',
+
   }
 
 
   const slides = [
-    { url: "http://localhost:3000/image-1.jpg", title: "beach" },
-    { url: "http://localhost:3000/image-2.jpg", title: "boat" },
-    { url: "http://localhost:3000/image-3.jpg", title: "forest" },
-    { url: "http://localhost:3000/image-2.jpg", title: "boat" },
-    { url: "http://localhost:3000/image-3.jpg", title: "forest" },
+    { url: "teste1.png" },
+    { url: "teste2.png" },
+    { url: "teste3.png" },
+    { url: "teste1.png" },
+    { url: "teste2.png" },
   ];
 
   const Button = styled.button`
 background-color: transparent;
 color:#3A5B95;
-padding: 10px 40px;
+padding: 10px 30px;
 border: 2px solid #3B5B96;
 border-radius: 20px;
 outline: 0;
@@ -113,15 +123,22 @@ justifyContent: center;
                 Send ut perspiciatis unde omnis iste natus error sit
               </div>
               <div style={textDiv}>
-                <Button >
-                  {'f' + ' FOLLOW '}
-                </Button>
+                <Link to="/facebook-link" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
+                  <Button>
+                    <FaFacebookF />
+                    <div style={{
+                      paddingLeft: '15px',
+                    }}>
+                      FOLLOW
+                    </div>
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
         </section >
       </div >
-    </div>
+    </div >
   );
 };
 

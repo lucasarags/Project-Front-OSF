@@ -1,6 +1,6 @@
 import React from 'react'
 import './NoPage.css'
-
+import search from './Search.png'
 const bodyPage = {
   width: '1280px',
   margin: '0 auto',
@@ -130,8 +130,8 @@ export default function NoPage() {
             Search our site
           </div>
 
-          <div class="inputwrapper" data-required="(ICON)">
-            <input id="demoTextBox" type="text" value="" class="inputDataText" placeholder="SEARCH" />
+          <div class="inputwrapper" src="search">
+            <input id="demoTextBox" type="text" value="" class="inputDataTexterror" placeholder="SEARCH" />
           </div>
 
         </div>

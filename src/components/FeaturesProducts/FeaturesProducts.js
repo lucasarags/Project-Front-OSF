@@ -21,9 +21,8 @@ export default function FeaturesProducts() {
   const [data, setData] = useState([]);
   const carousel = useRef(null);
 
-
   useEffect(() => {
-    fetch('http://localhost:3000/static/items.json')
+    fetch('static/items.json')
       .then((response) => response.json())
       .then(setData);
   }, []);
@@ -38,6 +37,10 @@ export default function FeaturesProducts() {
 
     carousel.current.scrollLeft += carousel.current.offsetWidth;
   };
+
+
+
+
 
   if (!data || !data.length) return null;
 
@@ -72,10 +75,7 @@ export default function FeaturesProducts() {
       </div>
 
 
-
-
-
-      <div className="carousel" ref={carousel}>
+      <div className="carousel" ref={carousel} >
         {data.map((item, index) => {
           const { id, name, price, image } = item;
           const isOdd = index % 2 === 1
@@ -86,6 +86,7 @@ export default function FeaturesProducts() {
               price={item.price}
               name={item.name}
               isOdd={isOdd}
+
             />
           );
         })}

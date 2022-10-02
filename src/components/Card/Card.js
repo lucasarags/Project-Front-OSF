@@ -1,7 +1,7 @@
 import React from 'react'
 import './Card.css'
 import { FaHeart, FaPlus } from 'react-icons/fa';
-
+import { Link } from 'react-router-dom';
 
 export default function Card(props) {
   return (
@@ -10,7 +10,9 @@ export default function Card(props) {
         ?
         <div className="container-item">
           <div className="image">
-            <img src={props.image} />
+
+            <img src={props.image} id="resized-image" />
+
           </div>
 
           <div className='info'>
@@ -31,17 +33,25 @@ export default function Card(props) {
         <div className="item">
 
           <div className="image">
-            <img src={props.image} />
+            <Link to="/ProductDetails">
+              <img src={props.image} id="resized-image" />
+            </Link>
           </div>
 
           <div className='info'>
+
             <div className='name'>
-              {props.name}
+              <Link to="/ProductDetails" style={{ textDecoration: 'none', color: '#262A33' }}>
+                {props.name}
+              </Link>
             </div>
+
             <div className='div-button'>
-              <button className='price'>
-                $ {props.price}
-              </button>
+              <Link to="/ProductDetails">
+                <button className='price'>
+                  $ {props.price}
+                </button>
+              </Link>
               <button className='buy'>
                 BUY NOW
               </button>
