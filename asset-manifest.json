@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Project-Front-OSF/static/css/main.c16013e3.css",
+    "main.js": "/Project-Front-OSF/static/js/main.838ad37b.js",
+    "static/media/Layer148.png": "/Project-Front-OSF/static/media/Layer148.650df979e0e8f33a9602.png",
+    "static/media/Layer162.png": "/Project-Front-OSF/static/media/Layer162.a9a49e19eb10c98b9d26.png",
+    "index.html": "/Project-Front-OSF/index.html",
+    "main.c16013e3.css.map": "/Project-Front-OSF/static/css/main.c16013e3.css.map",
+    "main.838ad37b.js.map": "/Project-Front-OSF/static/js/main.838ad37b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c16013e3.css",
+    "static/js/main.838ad37b.js"
+  ]
+}
