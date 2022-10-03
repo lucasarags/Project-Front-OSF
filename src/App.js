@@ -68,7 +68,6 @@ const HomePage = ({ isLogin, handleCloseLogin }) => {
   return (
     <div>
       {isLogin ? <Log handleCloseLogin={handleCloseLogin} /> : null}
-      <Cookies />
 
       <DataSlider />
       <PopularTitle style={containerTitle} />
